@@ -23,7 +23,7 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=ordnance survey, project, rectangle, select, search
+tags=ordnance survey, project, rectangle, select, search, UK, government
 
 homepage=https://github.com/Skipper-is/qgis_magic_map_loader
 category=Web
