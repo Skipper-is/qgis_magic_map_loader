@@ -25,6 +25,8 @@ from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction
 from qgis.gui import QgsMessageBar
+from qgis.core import Qgis
+
 
 # Initialize Qt resources from file resources.py
 from .resources import *
@@ -153,7 +155,7 @@ class MAGICMapLoader:
 
         # If the CRS is not British National Grid, throw an error message and do not proceed.
         if crs.authid() != 'EPSG:27700':
-            self.iface.messageBar().pushMessage("Error", "The map canvas must be in OSGB 1936 / British National Grid", level=QgsMessageBar.CRITICAL)
+            self.iface.messageBar().pushMessage("Error", "The map canvas must be in OSGB 1936 / British National Grid/EPSG 27700", level=Qgis.Critical)
             return
         
         #If it is in BNG - Proceed!
