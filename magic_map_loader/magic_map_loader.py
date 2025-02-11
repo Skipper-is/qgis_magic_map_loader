@@ -167,7 +167,7 @@ class MAGICMapLoader:
             ymax = extent.yMaximum()
 
             # Create the URL
-            url = "https://magic.defra.gov.uk/MagicMap.aspx?&startTopic=GreyRasters&chosenLayers=baseIndex&box={}:{}:{}:{}&useDefaultbackgroundMapping=false".format(xmin, ymin, xmax, ymax)
+            url = "https://magic.defra.gov.uk/MagicMap.html?basemapSet=&box={}:{}:{}:{}".format(xmin, ymin, xmax, ymax)
 
             # Open the URL in the default browser
             webbrowser.open(url)
