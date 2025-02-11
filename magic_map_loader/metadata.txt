@@ -6,7 +6,7 @@
 name=MAGIC Map Loader
 qgisMinimumVersion=3.0
 description=This plugin will open the DEFRA MAGIC Map service on the area of your map canvas
-version=1.0
+version=1.1
 author=DeltaV Geospatial
 email=David@DeltaVGeo.co.uk
 
@@ -23,7 +23,7 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=ordnance survey, project, rectangle, select, search, UK, government
+tags=ordnance survey, project, rectangle, select, search
 
 homepage=https://github.com/Skipper-is/qgis_magic_map_loader
 category=Web
